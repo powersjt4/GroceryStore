@@ -1,0 +1,15 @@
+*##################*
+*Welcome           *						
+*to                *						
+*The Grocery Store *				
+*##################*
+You have been tasked with getting all of the items on the shopping list. There 
+are a  few different departments. It is not clear where all these items are 
+but they should be pretty intuitive. Some might be more difficult. 
+*Hint* Go to the meat department twice.
+
+The goal is to select either a basket or a shopping cart get all of the items on the
+shopping list  and then choose the quickest checkout line. 
+You must complete this in a certain number of moves. Who knows what could happen 
+to slow you down. 
+
