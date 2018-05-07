@@ -13,25 +13,25 @@
 using std::cout;
 using std::endl;
 
-class Gameplay{
+class Gameplay {
 private:
 //Variables & objects
-    ValidIn validate;
-    std::list<std::string> cart;
-	std::vector<std::string> list {"Bacon","Potato","Tomato","Milk","Whole Chicken","Bread"};
+	ValidIn validate;
+	std::list<std::string> cart;
+	std::vector<std::string> list {"Bacon", "Potato", "Tomato", "Milk", "Whole Chicken", "Bread"};
 	//std::vector<std::string> list {"Potato","Tomato"};//For testing only need to go to produce.
 	Spaces *last = nullptr;
 	Spaces *current;
 	int counter = 20;
-    Grocery grocery;
-    unsigned int cartSize = 0; 
+	Grocery grocery;
+	unsigned int cartSize = 0;
 	unsigned int count = 0;
-//Functions	
+//Functions
 	bool searchCart(std::string);
-    void addItem(std::string);
+	void addItem(std::string);
 	void addFromShelf();
-    bool checkCart();
-    int move(int);
+	bool checkCart();
+	int move(int);
 	void printList();
 public:
 	void magicHpns();

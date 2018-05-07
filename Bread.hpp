@@ -1,22 +1,22 @@
-#ifndef BREAD_HPP 
+#ifndef BREAD_HPP
 #define BREAD_HPP
 
 #include "Spaces.hpp"
 #include <iostream>
 
-class Bread : public Spaces{
+class Bread : public Spaces {
 private:
-    void getDept();
-    void  stockShelf();
-   	bool visited = false;
+	void getDept();
+	void  stockShelf();
+	bool visited = false;
 
 public:
 	Bread();
-    void setLeft(Spaces &);
-    void setBottom(Spaces &);
-	void getText(); 
+	void setLeft(Spaces &);
+	void setBottom(Spaces &);
+	void getText();
 	int specialInt(int);
-	~Bread();    
+	~Bread();
 };
 #endif
 

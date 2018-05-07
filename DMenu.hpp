@@ -1,11 +1,11 @@
-#ifndef DMENU_HPP 
+#ifndef DMENU_HPP
 #define  DMENU_HPP
 /*******************************************
  **************************
  ** Author:Jake Powers
  ** Description: this is a dynamic menu class that will
- ** create a menu based upon user input of strings. 
- ** 
+ ** create a menu based upon user input of strings.
+ **
  ********************************************
  *************************/
 #include <string>
@@ -14,10 +14,10 @@
 class DMenu
 {
 private:
-    std::vector<std::string> menu;
-    
+	std::vector<std::string> menu;
+
 public:
-    void addItem(std::string str);
-    void printDMenu();
+	void addItem(std::string str);
+	void printDMenu();
 };
 #endif
